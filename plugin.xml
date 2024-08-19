@@ -9,7 +9,7 @@
     <issue>https:https://github.com/Vrush-567/ToastyPlugin/issues</issue>
 
     <js-module src="www/toastyplugin.js" name="ToastyPlugin">
-        <clobbers target="window.toastyPlugin" />
+        <clobbers target="window.plugins.toastyPlugin" />
     </js-module>
 
     <platform name="android">

@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-toasty",
+  "version": "1.0.0",
+  "description": "Cordova Plugin for displaying Toast messages",
+  "cordova": {
+    "id": "cordova-plugin-toasty",
+    "platforms": ["android"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vrush-567/ToastyPlugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "toast"
+  ],
+  "author": "Vrushabh Subhash Thorat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vrush-567/ToastyPlugin/issues"
+  },
+  "homepage": "https://github.com/Vrush-567/ToastyPlugin/blob/main/README.md"
+}

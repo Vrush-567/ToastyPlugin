@@ -1,0 +1,23 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-toasty"
+        version="1.0.0">
+    <name>ToastyPlugin</name>
+    <description>Cordova Plugin for displaying Toast messages on Android</description>
+    <license>MIT</license>
+    <keywords>cordova,toast</keywords>
+    <repo>https:https://github.com/Vrush-567/ToastyPlugin.git</repo>
+    <issue>https:https://github.com/Vrush-567/ToastyPlugin/issues</issue>
+
+    <js-module src="www/toastyplugin.js" name="ToastyPlugin">
+        <clobbers target="window.toastyPlugin" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ToastyPlugin">
+                <param name="android-package" value="org.apache.cordova.plugin.ToastyPlugin" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/ToastyPlugin.java" target-dir="src/org/apache/cordova/plugin/" />
+    </platform>
+</plugin>
